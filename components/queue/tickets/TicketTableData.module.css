@@ -1,0 +1,76 @@
+.ticketContent {
+  background-color: #ebebeb;
+  padding: 20px;
+}
+
+.ticketTable {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ticketTable table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticketTable thead {
+  background-color: #f0f0f0;
+}
+
+.ticketTable th,
+.ticketTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.ticketTable th {
+  color: #333;
+}
+
+.ticketTable td {
+  font-size: 14px;
+}
+
+.ticketTable .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.ticketTable a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.ticketTable a:hover {
+  text-decoration: underline;
+}
+
+.ticketTable .status {
+  padding: 5px 10px;
+}
+
+.sla {
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.sla i {
+  margin-right: 5px;
+}
+
+.slaGreen {
+  background-color: #218c03;
+  color: white;
+}
+
+.slaOrange {
+  background-color: #e76a04;
+  color: white;
+}

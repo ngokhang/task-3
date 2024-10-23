@@ -1,0 +1,12 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js --watch"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

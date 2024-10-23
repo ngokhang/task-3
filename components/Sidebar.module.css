@@ -1,0 +1,46 @@
+/* Sidebar styles */
+.sidebar {
+  flex-basis: 15%;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px 20px;
+}
+
+.sidebar a:hover {
+  background: rgba(200, 213, 255, 0.3);
+  border-right: 3px solid #0056b3;
+}
+
+.sidebar svg {
+  margin-right: 10px;
+}
+
+/* Dropdown styles */
+.dropdownMenu {
+  padding-left: 15px;
+}
+
+.dropdownToggle > a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.25rem;
+}
+
+.dropdownToggle svg:not(:first-child) {
+  float: right;
+}

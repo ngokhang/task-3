@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logoHeader {
+  flex-basis: 15%;
+}
+
+.logoHeader img {
+  height: 50px;
+}
+
+.headerContent {
+  flex-basis: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.headerCompany {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.headerCompany span {
+  margin-right: 10px;
+}
+
+.headerCompany select {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #0056b3;
+  color: white;
+}
+
+.headerUser {
+  display: flex;
+  align-items: center;
+}
+
+.headerUser button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #0056b3;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.headerUser button:hover {
+  opacity: 0.8;
+}
+
+.headerUser > * {
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.headerUser img {
+  margin-left: 10px;
+  width: 30px;
+  border-radius: 50%;
+}

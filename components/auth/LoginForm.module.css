@@ -1,0 +1,94 @@
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.loginBox {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.loginBox h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.loginBox form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox .textbox {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid #adadad;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.textbox i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.textbox input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btnLogin {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 20px;
+  background: #0060c9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginImg {
+  width: 55%;
+  height: 100%;
+  background-size: cover;
+}
+
+.loginImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: start;
+}
